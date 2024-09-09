@@ -46,15 +46,16 @@ To get started with the PINN Solver, follow these steps:
 
 ## Script Usage
 ### Command-Line Arguments
---train (optional): If specified, the model will be trained. If not specified, the model will only be tested.
---input_dim (optional, default: 3): The dimension of the input features.
---hidden_dim (optional, default: [64, 64]): A list specifying the dimensions of hidden layers.
---output_dim (optional, default: 2): The dimension of the output.
---max_epochs (optional, default: 50): The maximum number of epochs for training.
---batch_size (optional, default: 128): The batch size used during training.
---lr (optional, default: 1e-4): The learning rate for training.
---wandb_project (optional, default: 'PINN-Project'): The name of the project in Weights & Biases.
---wandb_entity (optional): The entity name for Weights & Biases. This is required to log to a specific entity.
+
+|     Argument              |             Description                           | Options                                               |
+|---------------------------| ------------------------------------------------- |------------------------------------------------------ |
+| `--train`                 | Train mode                                        | `True`, `False`                                       |
+| `--input_dim`             | Input dimension int                               | Default: `3`                                          |
+| `--ioutput_dim`           | Output dimension int                              | Default: `2`                                          |
+| `--dim_hidden`            | Dimension of hidden layers                        | Default: `70`                                         |
+| `--lr`                    | Learning rate                                     | Default: `1e-4`                                       |
+| `--batch_size`            | Training batch size                               | Default: `2`                                          |
+| `--max_epoch`             | Maximum number of training epochs                 | Default: `1500`                                       |
 
 ## Running the Script
 **To Train the Model**
