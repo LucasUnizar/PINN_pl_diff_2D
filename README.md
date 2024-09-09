@@ -1,4 +1,11 @@
+<div align="center"> 
+
 # PINN Solver for Inverse Diffusion Problem
+
+[![Project page](https://img.shields.io/badge/-Project%20page-green)](https://amb.unizar.es/people/lucas/tesan/)
+[![Linkedln](https://img.shields.io/badge/-Linkdln%20page-blue)](https://www.linkedin.com/in/lucas-tesan-ingbiozar/)
+
+</div>
 
 Welcome to the **PINN Solver for Inverse Diffusion Problem**! This repository contains a MATLAB implementation of a Physics-Informed Neural Network (PINN) designed to solve inverse diffusion problems using a 0-10 plaque domain with boundary conditions and a sinusoidal initial condition.
 
@@ -54,13 +61,30 @@ To get started with the PINN Solver, follow these steps:
 To train the model, run the script with the --train flag. You can customize other parameters as needed.
    ```bash
    python script.py --train --input_dim 4 --hidden_dim 128 64 --output_dim 3 --max_epochs 100 --batch_size 64 --lr 1e-5 --wandb_project MyPINNProject --wandb_entity my_wandb_entity
+   ```
 
 **To Test the Model**
 To test the model, run the script without the --train flag. Ensure the model has been previously trained.
    ```bash
    python script.py --input_dim 4 --hidden_dim 128 64 --output_dim 3 --max_epochs 100 --batch_size 64 --lr 1e-5 --wandb_project MyPINNProject --wandb_entity my_wandb_entity
+   ```
 
+## Plots and gifs
+**Here is a visualization of the inference in the hole rollout for u(x,y,t):**
 
+<div align="center">
+<img src="/outputs/plots/pred_vs_gt_evolution_3D.gif" width="450">
+</div>
 
+**Here we can follow the evolution of the inference of the diffusion coefficent:**
 
+<div align="center">
+<img src="/outputs/plots/alpha_evolution_3D.gif" width="450">
+</div>
+
+**Finally we can plot also the quadratic error for the simulation:**
+
+<div align="center">
+<img src="/outputs/plots/qerror_evolution_3D.gif" width="450">
+</div>
    
