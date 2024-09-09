@@ -28,4 +28,4 @@ To get started with the PINN Solver, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/pinn-solver-inverse-diffusion.git
+   git clone https://github.com/LucasUnizar/PINN_pl_diff_2D.git
