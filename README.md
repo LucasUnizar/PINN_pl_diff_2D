@@ -83,9 +83,42 @@ To test the model, run the script without the --train flag. Ensure the model has
 <img src="/outputs/plots/alpha_evolution_3D.gif" width="450">
 </div>
 
-**Finally we can plot also the quadratic error for the simulation:**
+**Finally, we can also plot the quadratic error for the simulation:**
 
 <div align="center">
 <img src="/outputs/plots/qerror_evolution_3D.gif" width="450">
 </div>
-   
+
+## Neural Network Training Overview
+
+This section provides an overview of the neural network training process, focusing on the decomposition of the total loss into its constituent components and the results of solving the inverse problem.
+The total loss function is defined as the sum of several loss components, each measuring a different aspect of the model's performance:
+
+**Data Loss:** Measures the error between the model predictions and observed data, guiding the network to fit the empirical data accurately.
+
+**Physics Loss:** Ensures the model predictions adhere to physical laws and constraints, improving the consistency and plausibility of the results.
+
+**BC and IC Loss:** Enforces the boundary and initial conditions, ensuring the model's predictions are accurate at critical points, enhancing overall reliability.
+
+The total loss is defined as the sum of individual loss components:
+
+\[
+\text{Total Loss} = \sum_{i=1}^{n} \text{Loss}_i
+\]
+
+Where:
+- \( \text{Loss}_i \) represents each individual loss component contributing to the total loss.
+
+In addition, the training evolution of these metrics is shown as a line graph for 50 epoch:
+
+<div align="center">
+<img src="/graphic_material/lossplot.png" width="450">
+</div>
+
+On the other hand, the estimation of the diffusion coefficient is shown as part of the solution of the inverse problem:
+
+<div align="center">
+<img src="/graphic_material/Dplot.png" width="450">
+</div>
+
+With a final value of 9,54 and considering a ground thruth of 10 in de numerical solver.
