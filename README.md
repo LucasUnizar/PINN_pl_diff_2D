@@ -122,3 +122,7 @@ On the other hand, the estimation of the diffusion coefficient is shown as part 
 </div>
 
 With a final value of 9,54 and considering a ground thruth of 10 in de numerical solver.
+
+<div align="center">
+<img src="/graphic_material/amb.jpg" width="450">
+</div>
