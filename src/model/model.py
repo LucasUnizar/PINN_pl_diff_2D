@@ -160,6 +160,7 @@ class PINN(pl.LightningModule):
             self.log("val_physics_loss", physics_loss)
             self.log("val_ic_loss", ic_loss)
             self.log("val_bc_loss", bc_loss)
+            self.log("val_alpha", bc_loss)
 
             # Append losses to list for tracking
             self.val_losses.append({
@@ -168,7 +169,7 @@ class PINN(pl.LightningModule):
                 "physics_loss": physics_loss.item(),
                 "ic_loss": ic_loss.item(),
                 "bc_loss": bc_loss.item(),
-                "alpha": alpha.item()
+                "alpha": alpha.mean()
             })
 
     def test_step(self, batch, batch_idx):
