@@ -160,7 +160,7 @@ class PINN(pl.LightningModule):
             self.log("val_physics_loss", physics_loss)
             self.log("val_ic_loss", ic_loss)
             self.log("val_bc_loss", bc_loss)
-            self.log("val_alpha", bc_loss)
+            self.log("val_alpha", alpha.mean())
 
             # Append losses to list for tracking
             self.val_losses.append({
