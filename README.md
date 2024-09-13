@@ -13,6 +13,11 @@ Welcome to the **PINN Solver for Inverse Diffusion Problem**! This repository co
 
 The PINN Solver for Inverse Diffusion Problem is an advanced computational tool built to tackle inverse problems in diffusion dynamics using modern machine learning techniques. Leveraging Physics-Informed Neural Networks (PINNs), this solver integrates physical laws into the learning process, ensuring accurate and efficient solutions.
 
+<div align="center">
+<img src="/graphic_material/inverse.png" width="450">
+</div>
+
+
 ### Problem Formulation
 
 - **Domain:** 0 ≤ x ≤ 10, 0 ≤ y ≤ 10
