@@ -107,12 +107,12 @@ The total loss function is defined as the sum of several loss components, each m
 
 The total loss is defined as the sum of individual loss components:
 
-\[
+$$
 \text{Total Loss} = \sum_{i=1}^{n} \text{Loss}_i
-\]
+$$
 
 Where:
-- \( \text{Loss}_i \) represents each individual loss component contributing to the total loss.
+- Loss_i represents each individual loss component contributing to the total loss.
 
 In addition, the training evolution of these metrics is shown as a line graph for 50 epoch:
 
