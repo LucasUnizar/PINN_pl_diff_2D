@@ -82,7 +82,7 @@ To test the model, run the script without the --train flag. Ensure the model has
 <img src="/outputs/plots/pred_vs_gt_evolution_3D.gif" width="450">
 </div>
 
-**Here we can follow the evolution of the inference of the diffusion coefficent:**
+**Here we can follow the evolution of the prediction for the diffusion coefficent:**
 
 <div align="center">
 <img src="/outputs/plots/alpha_evolution_3D.gif" width="450">
