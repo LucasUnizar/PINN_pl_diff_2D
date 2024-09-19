@@ -1,9 +1,13 @@
 <div align="center"> 
 
 # PINN Solver for Inverse Diffusion Problem
+**Authors: Mikel Martinez and Lucas Tesán**
+*Aragón Institute of Engineering Research*
+*University of Zaragoza*
 
-[![Project page](https://img.shields.io/badge/-Project%20page-green)](https://amb.unizar.es/people/lucas/tesan/)
-[![Linkedln](https://img.shields.io/badge/-Linkdln%20page-blue)](https://www.linkedin.com/in/lucas-tesan-ingbiozar/)
+[![Project page](https://img.shields.io/badge/-Project%20page-green)](https://amb.unizar.es/people/)
+[![Lucas T](https://img.shields.io/badge/-Linkdln%20page-blue)](https://www.linkedin.com/in/lucas-tesan-ingbiozar/)
+[![Mikel M.](https://img.shields.io/badge/-Linkdln%20page-blue)](https://www.linkedin.com/in/mikel-m-iparraguirre-80196b13b/)
 
 </div>
 
