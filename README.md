@@ -6,8 +6,8 @@
 *University of Zaragoza*
 
 [![Project page](https://img.shields.io/badge/-Project%20page-green)](https://amb.unizar.es/people/)
-[![Lucas T](https://img.shields.io/badge/-Linkdln%20page-blue)](https://www.linkedin.com/in/lucas-tesan-ingbiozar/)
-[![Mikel M.](https://img.shields.io/badge/-Linkdln%20page-blue)](https://www.linkedin.com/in/mikel-m-iparraguirre-80196b13b/)
+[![Lucas T](https://img.shields.io/badge/-Linkdln%20page%20Lucas-blue)](https://www.linkedin.com/in/lucas-tesan-ingbiozar/)
+[![Mikel M.](https://img.shields.io/badge/-Linkdln%20page%20Mikel-blue)](https://www.linkedin.com/in/mikel-m-iparraguirre-80196b13b/)
 
 </div>
 
