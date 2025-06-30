@@ -21,6 +21,8 @@ The PINN Solver for Inverse Diffusion Problem is an advanced computational tool 
 <img src="/graphic_material/inverse.png" width="450">
 </div>
 
+Original Paper: https://arxiv.org/abs/2408.16806
+
 
 ### Problem Formulation
 
